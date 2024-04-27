@@ -1,0 +1,230 @@
+body 
+/* This rule sets the background color of the body to white,
+removes any default padding and margin, hides horizontal scroll bars,
+ and centers the text. */
+{
+    background-color:#FFFF;
+    padding:0;
+    margin:0;
+    overflow-x:hidden;
+    text-align: center;
+}
+header
+/* This rule sets the header’s background color to white, adds padding 
+at the top, applies a box shadow, arranges its children in a row, aligns
+them vertically in the center, sets the font, and sets a specific
+ height.  */
+{
+    
+    background-color: #ffff;
+    padding: 30px 0px 0px 0px; /* Decreased padding to reduce header size */
+    box-shadow: 0 0 3px #333;    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Zen Kurenaido";
+    height:50px; /* Decreased height to reduce header size */
+    font-size:14px
+}
+header li 
+/* This rule sets the display property of list items in the header
+to inline and adjusts the line height. */
+{
+    display: inline;
+    line-height: 2; /* Adjust this value to move the links up or down */
+}
+header li a 
+/* This rule styles the links in the header list items. It sets the text
+color, removes the underline, rounds the corners, adds padding, and sets
+a transition effect. */
+{
+    color: #333;
+    text-decoration: none;
+    border-radius:30px 30px 30px 30px;
+    padding:13px;
+    transition:.6s ease;
+    
+}
+header li a:hover
+/* This rule changes the link color to white, adjusts the border radius, 
+and changes the background color to black when a user hovers over a link
+in the header list items. */
+{
+    color:white;
+    border-radius:30px 2px 30px 2px;
+    background:#333;
+}
+
+header span
+/* This rule adds padding to the right and top of spans in the header, and
+sets the font family and size. */
+{  
+    padding-right:15px; 
+    padding-top:35px;
+    font-family: "Train one";
+    font-size: 13px;   
+    
+    
+}
+header ul #headerlinks
+/* This rule adds padding to the top and bottom of the element with the ID
+“headerlinks” in the header unordered list. */
+{
+    padding:50px 0px 15px 0px;
+}
+header ul 
+/* This rule sets the display property of unordered lists in the header to 
+flex, distributes space evenly between the list items, and sets the width to 100%. */
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+header ul #contact 
+/* This rule moves the element with the ID “contact” in the header unordered list to
+the right and adds padding to the top. */
+{
+    margin-left: auto;
+    padding-top: 20px;
+    padding-right:15px;
+}
+header ul #contact a 
+/* This rule styles the links in the “contact” element. It sets the text color,
+background color, border radius, and position. */
+{
+    color:#333;
+    background-color: #fff;
+    border-radius:30px;
+    position:relative;
+    transition:.3s ease;
+    
+}
+header ul #contact a:hover 
+/* This rule changes the background color to black, adjusts the border radius,
+and changes the text color to white when a user hovers over a link in the “contact” 
+element. */
+{
+    background-color: #333;
+    border-radius:30px 2px 30px 2px;
+    color:#fff;
+    
+}
+.headerlinks
+/* This rule adds padding to the top of elements with the class “headerlinks”. */
+{
+    padding-top:20px;
+}
+.logo-container
+/* This rule sets the display property to flex, aligns items to the start
+of the cross axis, centers items along the main axis, adds margin to the right, allows 
+the item to grow, and adds padding to the bottom. */
+{    
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-right: 50px;
+    flex-grow: .8;
+    padding-bottom: 20px;
+
+}
+.logo-container img
+/* This rule moves the image in the “logo-container” to the left. */
+{
+    margin-right: -25px;
+}
+.logo-container span 
+/* This rule prevents the span in the “logo-container” from becoming the target of pointer events. */
+{
+    pointer-events: none;
+}
+
+.firstbody
+{
+    font-weight: 400;
+    font-size: 15px;
+    background-color: #45474B;
+    color: #fff;
+    padding: 10px 150px 50px 150px;
+    
+}
+.firstbody img
+{
+    padding-left: 500px;
+}
+.firstbody p h2
+
+.row
+{
+    display:flex;
+}
+.column
+{
+    flex:50%;
+    padding:10px;
+}
+#sidePro
+{
+    background-color: #B8B8B8;
+}
+.sideProarrow{
+    
+    background-color: #D9D9D9;
+}
+.beforefooter ul
+{
+    display: flex;
+    gap:30px;
+    /* margin: center; */
+    align-items: flex-start;
+    justify-content: center;  
+    
+    
+}
+.beforefooter li
+{
+    padding-right: 30px;
+    list-style-type: none;
+
+}
+.beforefooter li a{
+    color: #333;
+    text-decoration: none;
+    border-radius:30px 30px 30px 30px;
+    padding:13px;
+    
+    transition:.6s ease;
+
+}
+.beforefooter li a:hover{
+    color:white;
+    border-radius:30px 2px 30px 2px;
+    background:#333;
+
+}
+#notification {
+    position: fixed;
+    top: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #1f1f1f;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+    font-family: "Zen Kurenaido";
+    font-size: 13px;
+}
+.logo-container a{
+    padding:0;
+}
+
+.logo-container a:hover{
+    background-color: transparent;
+    padding: 0;
+    color:black;
+
+}
+#email{
+    cursor:pointer;
+}

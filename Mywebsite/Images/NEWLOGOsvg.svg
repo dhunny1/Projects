@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Adobe Illustrator 28.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 352 188" style="enable-background:new 0 0 352 188;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#050304;stroke-width:3.3437;stroke-miterlimit:10;}
+	.st1{fill:#FF3721;stroke:#050304;stroke-width:3.3437;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#050304;stroke-width:3.2313;stroke-miterlimit:10;}
+	.st3{fill:none;stroke:#050304;stroke-width:3.1799;stroke-miterlimit:10;}
+	.st4{fill:none;stroke:#050304;stroke-width:3.2798;stroke-miterlimit:10;}
+	.st5{font-family:'TrainOne-Regular';}
+	.st6{font-size:24px;}
+	.st7{fill:none;}
+</style>
+<g>
+	<g>
+		<line class="st0" x1="38.85" y1="15.19" x2="38.85" y2="156.68"/>
+		<line class="st0" x1="92.11" y1="4.65" x2="92.11" y2="168.96"/>
+		<line class="st1" x1="38.85" y1="104.61" x2="92.11" y2="104.61"/>
+	</g>
+	<g>
+		<path class="st2" d="M65.47,127.89c0,13.82-11.57,25.02-25.84,25.02s-25.84-11.2-25.84-25.02"/>
+		<line class="st3" x1="13.8" y1="127.89" x2="13.8" y2="52.54"/>
+	</g>
+	<g>
+		<g>
+			<line class="st4" x1="13.72" y1="129.48" x2="13.72" y2="29.98"/>
+			<line class="st4" x1="92.11" y1="168.96" x2="13.72" y2="29.98"/>
+		</g>
+		<line class="st4" x1="65.43" y1="29.98" x2="65.43" y2="129.48"/>
+	</g>
+	<g>
+		<line class="st4" x1="65.43" y1="29.94" x2="115.18" y2="79.68"/>
+		<line class="st4" x1="162.4" y1="32.78" x2="115.18" y2="79.68"/>
+		<line class="st4" x1="116.92" y1="164.57" x2="115.17" y2="79.53"/>
+	</g>
+</g>
+<text transform="matrix(1 0 0 1 142.466 133.7547)" class="st5 st6">Hunny Portfolio</text>
+<rect x="81.11" y="108.52" class="st7" width="161.71" height="64.69"/>
+</svg>
